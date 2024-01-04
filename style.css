@@ -235,3 +235,123 @@
     font-size: 35px;
     padding-right: 10px;
 }
+
+
+@media (max-width:768px) {
+    .main-container{
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-1{
+        width: 80%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-right{
+        display: none;
+    }
+    .text-right-part{
+        display: none;
+    }
+
+    .navbar{
+        padding-inline: 4%;
+    }
+
+    .navbar ul{
+        display: flex;
+        padding-left: 8px;
+    }
+
+    .navbar ul li{
+        font-size: 50%;
+        padding: 20px 10px;
+    }
+
+    .navbar p{
+        font-size: 20px;
+    }
+
+    .text-left{
+        width: 50%;
+        height: auto;
+        padding-left: 3%;
+    }
+
+    .text-left h1{
+        font-size: 20px;
+    }
+
+    .par{
+        font-size: 13px;
+        padding-block: 5px;
+        padding-top: 19px;
+    }
+
+    .left-text span img{
+        font-size: 30px;
+        margin-top: 10px;
+        text-align: center; 
+        padding-right: 10%;
+    }
+
+    .container-2{
+        width: 80%;
+        height: 200px;
+        margin-top: 15px;
+        flex-direction: row;
+    }
+
+    .text-left-part{
+        width: 100%;
+        height: auto;
+        padding-left: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-left-part h1{
+        font-size: 1rem;  
+        padding-block: 30px;
+    }
+
+    .text-left-part p{
+        font-size: 9px;
+    }
+
+    .text-left-part button{
+        /* border: 1px solid black; */
+        text-align: center;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .text-left-part button:hover{
+        color: black;
+    }
+}
+
+
+@media (max-width:320px) {
+    .left-text span img{
+        font-size: 15px;
+        margin-top: 5px;
+        text-align: center; 
+        padding-right: 5%;
+    }
+
+    #icon-1{
+        width: 50px;
+    }
+
+    #icon-2{
+        width: 30px;
+    }
+}
